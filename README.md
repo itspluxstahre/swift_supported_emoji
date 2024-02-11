@@ -46,7 +46,9 @@ Feel free to extend this script or incorporate it into larger projects to furthe
 ## Note!
 Some emojis in both in the supported and unsupported list might look weird or like multiple emojis.
 The raw bytesequence for each emoji is used, and some emojis is built with multiple unicode characters so if your system or the context you are viewing the files in does
-not know how render these emojis they will look weird and/or broken.
+not know how render these emojis they will look weird and/or broken. Many emojis uses different hidden control characters, and that is also what breaks all the emojis in the unsupported list.
+
+The main control character swift seems to break by is `U+FE0F` (Variation Selector-16 (VS16)) that does weird things with how Swift parses unicode.
 
 Examples of this is:
 
@@ -68,3 +70,4 @@ let 🧑‍🧒 = 1 /* family: adult, child */
 let 🧑‍🧒‍🧒 = 1 /* family: adult, child, child */
 ```
 Here we have a group of different emojis glued with `U+200D` that might look funky on your system.
+
