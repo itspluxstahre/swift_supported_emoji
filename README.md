@@ -26,7 +26,7 @@ The script requires the `data.raw.json` file from the Emojibase dataset. Perform
 With the `data.raw.json` file in place, you're ready to run the script. Open your terminal, navigate to the directory containing the script and the JSON file, and execute the following command:
 
 ```bash
-swift convert.swift
+swift run swift_supported_emoji process
 ```
 
 The script will read the emoji data from `data.raw.json`, generate Swift code for each emoji, attempt to compile each snippet, and then write the results to `supported.swift` and `unsupported.swift` files in the current directory. These files will contain lists of emojis categorized by their compatibility as variable names in Swift.
