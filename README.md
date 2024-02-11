@@ -42,3 +42,29 @@ The script will read the emoji data from `data.raw.json`, generate Swift code fo
 This project offers a unique way to test and explore the capabilities of the Swift compiler regarding unconventional variable names. It demonstrates how to programmatically interact with the Swift compiler, handle file operations, and parse JSON data in Swift.
 
 Feel free to extend this script or incorporate it into larger projects to further explore Swift's syntactical boundaries.
+
+## Note!
+Some emojis in both in the supported and unsupported list might look weird or like multiple emojis.
+The raw bytesequence for each emoji is used, and some emojis is built with multiple unicode characters so if your system or the context you are viewing the files in does
+not know how render these emojis they will look weird and/or broken.
+
+Examples of this is:
+
+```swift
+let 🍄‍🟫 = 1 /* brown mushroom */
+let 🍋‍🟩 = 1 /* lime */
+```
+The lime is actually just a lemon with a color modifier, the same with the mushrrom and is a new emojis and is probably not supported on your system yet.
+
+```swift
+let 🐦‍🔥 = 1 /* phoenix */
+```
+The Phoneix is a bird glued to fire with `U+200D` that is a Zero Width Joiner. Same is used by color modifiers.
+
+```swift
+let 🧑‍🧑‍🧒 = 1 /* family: adult, adult, child */
+let 🧑‍🧑‍🧒‍🧒 = 1 /* family: adult, adult, child, child */
+let 🧑‍🧒 = 1 /* family: adult, child */
+let 🧑‍🧒‍🧒 = 1 /* family: adult, child, child */
+```
+Here we have a group of different emojis glued with `U+200D` that might look funky on your system.
