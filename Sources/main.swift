@@ -19,38 +19,32 @@ class ProcessCommand: Command {
 
     func execute() throws {
         var jsonDataPath = "data.raw.json"
-    if let jsonPath = jsonData.value {
-        jsonDataPath = jsonPath
-    }
+        if let jsonPath = jsonData.value {
+            jsonDataPath = jsonPath
+        }
 
-    var supportedFilePath = "supported.swift"
-    if let supFile = supportedFile.value {
-        supportedFilePath = supFile
-    }
+        var supportedFilePath = "supported.swift"
+        if let supFile = supportedFile.value {
+            supportedFilePath = supFile
+        }
 
-    var unsupportedFilePath = "unsupported.swift"
-    if let unsupFile = unsupportedFile.value {
-        unsupportedFilePath = unsupFile
-    }
+        var unsupportedFilePath = "unsupported.swift"
+        if let unsupFile = unsupportedFile.value {
+            unsupportedFilePath = unsupFile
+        }
 
-    let fileManager = FileManager.default
-    if fileManager.fileExists(atPath: supportedFilePath), !overwrite.value {
-        print("\(supportedFilePath) already exists. Do you want to overwrite? Y/N")
-        if let userInput = readLine(), userInput.lowercased() != "y" {
-            print("File \(supportedFilePath) was not overwritten.")
+        let fileManager = FileManager.default
+        if fileManager.fileExists(atPath: supportedFileURL.path), !overwrite.value {
+            print("Error: \(supportedFilePath) already exists. Use --overwrite to overwrite.")
             return
         }
-    }
 
-    if fileManager.fileExists(atPath: unsupportedFilePath), !overwrite.value {
-        print("\(unsupportedFilePath) already exists. Do you want to overwrite? Y/N")
-        if let userInput = readLine(), userInput.lowercased() != "y" {
-            print("File \(unsupportedFilePath) was not overwritten.")
+        if fileManager.fileExists(atPath: unsupportedFileURL.path), !overwrite.value {
+            print("Error: \(unsupportedFilePath) already exists. Use --overwrite to overwrite.")
             return
         }
-    }
 
-    try main(jsonDataPath: jsonDataPath, supportedFilePath: supportedFilePath, unsupportedFilePath: unsupportedFilePath)
+        try main(jsonDataPath: jsonDataPath, supportedFilePath: supportedFilePath, unsupportedFilePath: unsupportedFilePath)
     }
 }
 
@@ -121,6 +115,6 @@ func main(jsonDataPath: String, supportedFilePath: String, unsupportedFilePath: 
 }
 
 let process = ProcessCommand()
-let cli = CLI(name: "swift-emoji-processor", version: "1.0.0")
+let cli = CLI(name: "swift-code-processor", version: "1.0.0")
 cli.commands = [process]
 cli.goAndExit()
