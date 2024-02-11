@@ -6,7 +6,7 @@ This project includes a Swift script designed to test the Swift compiler's abili
 
 Before you can run the script, ensure your system meets the following requirements:
 
-- **Swift**: The Swift compiler must be installed on your system. This script has been tested with Swift 5.x. You can check your Swift version by running `swift --version` in your terminal. For installation instructions, visit [Swift.org](https://swift.org/download/).
+- **Swift**: The Swift compiler must be installed on your system. This script has been tested with Swift 5.9.x. You can check your Swift version by running `swift --version` in your terminal. For installation instructions, visit [Swift.org](https://swift.org/download/).
 
 ## Getting Started
 
