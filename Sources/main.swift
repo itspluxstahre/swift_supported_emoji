@@ -86,7 +86,7 @@ func testSwiftCode(swiftCode: String) throws -> Bool {
 }
 
 func getUnicodeScalars(string: String) -> [String] {
-    return string.unicodeScalars.map { "U+\(String($0.value, radix: 16, uppercase: true))" }
+    return string.unicodeScalars.map { "U+\(String(format: "%04X", $0.value))" }
 }
 
 func main(jsonDataPath: String, supportedFilePath: String, unsupportedFilePath: String) throws {
