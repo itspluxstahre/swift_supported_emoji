@@ -69,12 +69,5 @@ let 🧑‍🧒‍🧒 = 1 /* family: adult, child, child */
 ```
 Here we have a group of different emojis glued with `U+200D` that might look funky on your system.
 
-The main control character swift seems to break by is `U+FE0F` (Variation Selector-16 (VS16)) that does weird things with how Swift parses unicode.
-This is some examples from the unspported list
-```swift
-let ☺️ = 1 /* smiling face */
-let 🙂‍↔️ = 1 /* head shaking horizontally */
-let 🙂‍↕️ = 1 /* head shaking vertically */
-let ☹️ = 1 /* frowning face */
-let ☠️ = 1 /* skull and crossbones */
-``
+I currently have no idea why "unsupported.swift" breaks swift. I tought it was the `U+FE0F` (Variation Selector-16 (VS16)) character, but that works just fine for some emojis.
+My current working theory is that there is some unicode blackmagick that breaks some emojis.
