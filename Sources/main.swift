@@ -1,127 +1,161 @@
 import Foundation
-
-struct SwiftCode: Codable {
-    let emoji: String
-    let label: String
-}
-
-import Foundation
 import SwiftCLI
 
+struct SwiftCode: Codable {
+  let emoji: String
+  let label: String
+}
+
 class ProcessCommand: Command {
-    let name = "process"
-    let shortDescription = "This command process the swift code"
+  let name = "process"
+  let shortDescription = "This command process the swift code"
 
-    let jsonData = Key<String>("-j", "--json", description: "Path to JSON data file. Use the format lowerName=VALUE")
-    let supportedFile = Key<String>("-s", "--supportedFile", description: "Path for supported swift file. Use the format upperName=VALUE")
-    let unsupportedFile = Key<String>("-u", "--unsupportedFile", description: "Path for unsupported swift file. Use the format specialChar=VALUE")
-    let overwrite = Flag("-o", "--overwrite", description: "Overwrite existing supported and unsupported swift files.")
+  let jsonData = Key<String>(
+    "-j", "--json", description: "Path to JSON data file. Use the format lowerName=VALUE")
+  let supportedFile = Key<String>(
+    "-s", "--supportedFile",
+    description: "Path for supported swift file. Use the format upperName=VALUE")
+  let unsupportedFile = Key<String>(
+    "-u", "--unsupportedFile",
+    description: "Path for unsupported swift file. Use the format specialChar=VALUE")
+  let resultsFile = Key<String>(
+    "-r", "--resultsFile",
+    description: "Path for plaintext resultsfile. Use the format specialChar=VALUE")
+  let resultsUnsupportedFile = Key<String>(
+    "-f", "--resultsUnsupportedFile",
+    description: "Path for plaintext resultsfile. Use the format specialChar=VALUE")
+  let overwrite = Flag(
+    "-o", "--overwrite", description: "Overwrite existing supported and unsupported swift files.")
 
-    func execute() throws {
-        var jsonDataPath = "data.raw.json"
+  func execute() throws {
+    var jsonDataPath = "data.raw.json"
     if let jsonPath = jsonData.value {
-        jsonDataPath = jsonPath
+      jsonDataPath = jsonPath
     }
 
     var supportedFilePath = "supported.swift"
     if let supFile = supportedFile.value {
-        supportedFilePath = supFile
+      supportedFilePath = supFile
     }
 
     var unsupportedFilePath = "unsupported.swift"
     if let unsupFile = unsupportedFile.value {
-        unsupportedFilePath = unsupFile
+      unsupportedFilePath = unsupFile
     }
 
+    var resultsFilePath = "supported.md"
+    if let resulFile = resultsFile.value {
+      resultsFilePath = resulFile
+    }
+
+    var resultsUnsupportedFilePath = "unsupported.md"
+    if let resulUnsupFile = resultsUnsupportedFile.value {
+      resultsUnsupportedFilePath = resulUnsupFile
+    }
     let fileManager = FileManager.default
     if fileManager.fileExists(atPath: supportedFilePath), !overwrite.value {
-        print("\(supportedFilePath) already exists. Do you want to overwrite? Y/N")
-        if let userInput = readLine(), userInput.lowercased() != "y" {
-            print("File \(supportedFilePath) was not overwritten.")
-            return
-        }
+      print("\(supportedFilePath) already exists. Do you want to overwrite? Y/N")
+
+      if let userInput = readLine(), userInput.lowercased() != "y" {
+        print("File \(supportedFilePath) was not overwritten.")
+        return
+      }
     }
 
     if fileManager.fileExists(atPath: unsupportedFilePath), !overwrite.value {
-        print("\(unsupportedFilePath) already exists. Do you want to overwrite? Y/N")
-        if let userInput = readLine(), userInput.lowercased() != "y" {
-            print("File \(unsupportedFilePath) was not overwritten.")
-            return
-        }
+      print("\(unsupportedFilePath) already exists. Do you want to overwrite? Y/N")
+      if let userInput = readLine(), userInput.lowercased() != "y" {
+        print("File \(unsupportedFilePath) was not overwritten.")
+        return
+      }
     }
 
-    try main(jsonDataPath: jsonDataPath, supportedFilePath: supportedFilePath, unsupportedFilePath: unsupportedFilePath)
-    }
+    try main(
+      jsonDataPath: jsonDataPath, supportedFilePath: supportedFilePath,
+      unsupportedFilePath: unsupportedFilePath, resultsFilePath: resultsFilePath, resultsUnsupportedFilePath: resultsUnsupportedFilePath)
+  }
 }
 
-
-
 func testSwiftCode(swiftCode: String) throws -> Bool {
-    let tempDirectory = NSTemporaryDirectory()
-    let tempFileURL = URL(fileURLWithPath: tempDirectory).appendingPathComponent(UUID().uuidString).appendingPathExtension("swift")
+  let tempDirectory = NSTemporaryDirectory()
+  let tempFileURL = URL(fileURLWithPath: tempDirectory).appendingPathComponent(UUID().uuidString)
+    .appendingPathExtension("swift")
 
-    do {
-        try swiftCode.write(to: tempFileURL, atomically: true, encoding: .utf8)
-        
-        let process = Process()
-        let pipe = Pipe()
-        process.executableURL = URL(fileURLWithPath: "/usr/bin/swift")
-        process.arguments = [tempFileURL.path]
-        process.standardOutput = pipe
-        process.standardError = pipe
-        
-        try process.run()
-        process.waitUntilExit()
+  do {
+    try swiftCode.write(to: tempFileURL, atomically: true, encoding: .utf8)
 
-        let data = pipe.fileHandleForReading.readDataToEndOfFile()
-        let output = String(data: data, encoding: .utf8)
+    let process = Process()
+    let pipe = Pipe()
+    process.executableURL = URL(fileURLWithPath: "/usr/bin/swift")
+    process.arguments = [tempFileURL.path]
+    process.standardOutput = pipe
+    process.standardError = pipe
 
-        try FileManager.default.removeItem(at: tempFileURL)
+    try process.run()
+    process.waitUntilExit()
 
-        return output?.isEmpty ?? false
-    } catch {
-        print("An error occurred: \(error.localizedDescription)")
-        throw error
-    }
+    let data = pipe.fileHandleForReading.readDataToEndOfFile()
+    let output = String(data: data, encoding: .utf8)
+
+    try FileManager.default.removeItem(at: tempFileURL)
+
+    return output?.isEmpty ?? false
+  } catch {
+    print("An error occurred: \(error.localizedDescription)")
+    throw error
+  }
 }
 
 func getUnicodeScalars(string: String) -> [String] {
-    return string.unicodeScalars.map { "U+\(String(format: "%04X", $0.value))" }
+  return string.unicodeScalars.map { "U+\(String(format: "%04X", $0.value))" }
 }
 
-func main(jsonDataPath: String, supportedFilePath: String, unsupportedFilePath: String) throws {
-    do {
-        let fileManager = FileManager.default
-        let currentDirectoryURL = URL(fileURLWithPath: fileManager.currentDirectoryPath)
-        let jsonDataURL = currentDirectoryURL.appendingPathComponent(jsonDataPath)
+func main(jsonDataPath: String, supportedFilePath: String, unsupportedFilePath: String, resultsFilePath: String, resultsUnsupportedFilePath: String) throws {
+  do {
+    let fileManager = FileManager.default
+    let currentDirectoryURL = URL(fileURLWithPath: fileManager.currentDirectoryPath)
+    let jsonDataURL = currentDirectoryURL.appendingPathComponent(jsonDataPath)
 
-        let supportedFileURL = currentDirectoryURL.appendingPathComponent(supportedFilePath)
-        let unsupportedFileURL = currentDirectoryURL.appendingPathComponent(unsupportedFilePath)
+    let supportedFileURL = currentDirectoryURL.appendingPathComponent(supportedFilePath)
+    let unsupportedFileURL = currentDirectoryURL.appendingPathComponent(unsupportedFilePath)
+    let resultsFileURL = currentDirectoryURL.appendingPathComponent(resultsFilePath)
+    let resultsUnsupportedFileURL = currentDirectoryURL.appendingPathComponent(resultsUnsupportedFilePath)
+    let data = try Data(contentsOf: jsonDataURL)
+    let swiftCodes = try JSONDecoder().decode([SwiftCode].self, from: data)
 
-        let data = try Data(contentsOf: jsonDataURL)
-        let swiftCodes = try JSONDecoder().decode([SwiftCode].self, from: data)
+    var supportedSwiftCode = ""
+    var unsupportedSwiftCode = ""
+    var resultsFileLines: String = ""
+    resultsFileLines += "| Emoji | Name | Codepoints |\n"
+    resultsFileLines += "| ----- | ---- | ---------- |\n"
+    
+    var resultsUnsupportedFileLines = resultsFileLines
 
-        var supportedSwiftCode = ""
-        var unsupportedSwiftCode = ""
+    for item in swiftCodes {
+      let codepoints = getUnicodeScalars(string: item.emoji).joined(separator: " ")
+      let swiftLine = "let \(item.emoji) = 1 /* Name: \(item.label), Codepoints: \(codepoints) */\n"
 
-        for item in swiftCodes {
-            let codepoints = getUnicodeScalars(string: item.emoji).joined(separator: " ")
-            let swiftLine = "let \(item.emoji) = 1 /* Name: \(item.label), Codepoints: \(codepoints) */\n"
+      if try testSwiftCode(swiftCode: swiftLine) {
 
-            if try testSwiftCode(swiftCode: swiftLine) {
-                supportedSwiftCode += swiftLine
-            } else {
-                unsupportedSwiftCode += swiftLine
-            }
-        }
-
-        try supportedSwiftCode.write(to: supportedFileURL, atomically: true, encoding: .utf8)
-        try unsupportedSwiftCode.write(to: unsupportedFileURL, atomically: true, encoding: .utf8)
-
-        print("Done! Check supported.swift and unsupported.swift for the results.")
-    } catch {
-        print("An error occurred: \(error.localizedDescription)")
+        supportedSwiftCode += swiftLine
+        resultsFileLines +=
+          "| \(item.emoji) | \(item.label) | \(codepoints) |\n"
+      } else {
+        unsupportedSwiftCode += swiftLine
+        resultsUnsupportedFileLines +=
+          "| \(item.emoji) | \(item.label) | \(codepoints) |\n"
+      }
     }
+
+    try supportedSwiftCode.write(to: supportedFileURL, atomically: true, encoding: .utf8)
+    try unsupportedSwiftCode.write(to: unsupportedFileURL, atomically: true, encoding: .utf8)
+    try resultsFileLines.write(to: resultsFileURL, atomically: true, encoding: .utf8)
+    try resultsUnsupportedFileLines.write(to: resultsUnsupportedFileURL, atomically: true, encoding: .utf8)
+
+    print("Done! Check supported.swift and unsupported.swift for the results.")
+  } catch {
+    print("An error occurred: \(error.localizedDescription)")
+  }
 }
 
 let process = ProcessCommand()
