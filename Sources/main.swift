@@ -1,9 +1,13 @@
 import Foundation
 import SwiftCLI
 
+// Updated SwiftCode and Skin structs
+// Same fields for both main emojis and skin variations
 struct SwiftCode: Codable {
   let emoji: String
   let label: String
+  let hexcode: String
+  let skins: [SwiftCode]?
 }
 
 class ProcessCommand: Command {
@@ -121,8 +125,16 @@ func main(jsonDataPath: String, supportedFilePath: String, unsupportedFilePath: 
     let resultsFileURL = currentDirectoryURL.appendingPathComponent(resultsFilePath)
     let resultsUnsupportedFileURL = currentDirectoryURL.appendingPathComponent(resultsUnsupportedFilePath)
     let data = try Data(contentsOf: jsonDataURL)
-    let swiftCodes = try JSONDecoder().decode([SwiftCode].self, from: data)
+    let baseCodes = try JSONDecoder().decode([SwiftCode].self, from: data)
 
+    // Flatten the array by including the skins into the main array
+    var swiftCodes: [SwiftCode] = []
+    for baseCode in baseCodes {
+      swiftCodes.append(baseCode)
+      if let skins = baseCode.skins {
+        swiftCodes.append(contentsOf: skins)
+      }
+    }
     var supportedSwiftCode = ""
     var unsupportedSwiftCode = ""
     var resultsFileLines: String = ""
