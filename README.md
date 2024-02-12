@@ -48,8 +48,6 @@ Some emojis in both in the supported and unsupported list might look weird or li
 The raw bytesequence for each emoji is used, and some emojis is built with multiple unicode characters so if your system or the context you are viewing the files in does
 not know how render these emojis they will look weird and/or broken. Many emojis uses different hidden control characters, and that is also what breaks all the emojis in the unsupported list.
 
-The main control character swift seems to break by is `U+FE0F` (Variation Selector-16 (VS16)) that does weird things with how Swift parses unicode.
-
 Examples of this is:
 
 ```swift
@@ -71,3 +69,12 @@ let 🧑‍🧒‍🧒 = 1 /* family: adult, child, child */
 ```
 Here we have a group of different emojis glued with `U+200D` that might look funky on your system.
 
+The main control character swift seems to break by is `U+FE0F` (Variation Selector-16 (VS16)) that does weird things with how Swift parses unicode.
+This is some examples from the unspported list
+```swift
+let ☺️ = 1 /* smiling face */
+let 🙂‍↔️ = 1 /* head shaking horizontally */
+let 🙂‍↕️ = 1 /* head shaking vertically */
+let ☹️ = 1 /* frowning face */
+let ☠️ = 1 /* skull and crossbones */
+``

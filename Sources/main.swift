@@ -85,6 +85,9 @@ func testSwiftCode(swiftCode: String) throws -> Bool {
     }
 }
 
+func getUnicodeScalars(string: String) -> [String] {
+    return string.unicodeScalars.map { "U+\(String($0.value, radix: 16, uppercase: true))" }
+}
 
 func main(jsonDataPath: String, supportedFilePath: String, unsupportedFilePath: String) throws {
     do {
@@ -102,7 +105,8 @@ func main(jsonDataPath: String, supportedFilePath: String, unsupportedFilePath: 
         var unsupportedSwiftCode = ""
 
         for item in swiftCodes {
-            let swiftLine = "let \(item.emoji) = 1 /* \(item.label) */\n"
+            let codepoints = getUnicodeScalars(string: item.emoji).joined(separator: " ")
+            let swiftLine = "let \(item.emoji) = 1 /* Name: \(item.label), Codepoints: \(codepoints) */\n"
 
             if try testSwiftCode(swiftCode: swiftLine) {
                 supportedSwiftCode += swiftLine
