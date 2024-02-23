@@ -19,7 +19,7 @@ The script requires the `data.raw.json` file from the Emojibase dataset. Perform
 1. Visit the [Emojibase GitHub repository](https://github.com/milesj/emojibase/tree/master/packages/data/en).
 2. Navigate to the `data/en` directory.
 3. Download the `data.raw.json` file.
-4. Place the downloaded file in the same directory as the `convert.swift` script.
+4. Place the downloaded file into the repo root directory
 
 ### 2. Run the Script
 
