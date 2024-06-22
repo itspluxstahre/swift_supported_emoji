@@ -446,23 +446,23 @@
 | 🚶🏾‍♀️ | woman walking: medium-dark skin tone | U+1F6B6 U+1F3FE U+200D U+2640 U+FE0F |
 | 🚶🏿‍♀️ | woman walking: dark skin tone | U+1F6B6 U+1F3FF U+200D U+2640 U+FE0F |
 | 🚶‍➡️ | person walking facing right | U+1F6B6 U+200D U+27A1 U+FE0F |
-| 🚶🏻‍➡️ | person walking facing right: light skin tone | U+1F6B6 U+1F3FB U+200D U+27A1 U+FE0F |
-| 🚶🏼‍➡️ | person walking facing right: medium-light skin tone | U+1F6B6 U+1F3FC U+200D U+27A1 U+FE0F |
-| 🚶🏽‍➡️ | person walking facing right: medium skin tone | U+1F6B6 U+1F3FD U+200D U+27A1 U+FE0F |
-| 🚶🏾‍➡️ | person walking facing right: medium-dark skin tone | U+1F6B6 U+1F3FE U+200D U+27A1 U+FE0F |
-| 🚶🏿‍➡️ | person walking facing right: dark skin tone | U+1F6B6 U+1F3FF U+200D U+27A1 U+FE0F |
+| 🚶🏻‍➡️ | person walking facing right | U+1F6B6 U+1F3FB U+200D U+27A1 U+FE0F |
+| 🚶🏼‍➡️ | person walking facing right | U+1F6B6 U+1F3FC U+200D U+27A1 U+FE0F |
+| 🚶🏽‍➡️ | person walking facing right | U+1F6B6 U+1F3FD U+200D U+27A1 U+FE0F |
+| 🚶🏾‍➡️ | person walking facing right | U+1F6B6 U+1F3FE U+200D U+27A1 U+FE0F |
+| 🚶🏿‍➡️ | person walking facing right | U+1F6B6 U+1F3FF U+200D U+27A1 U+FE0F |
 | 🚶‍♀️‍➡️ | woman walking facing right | U+1F6B6 U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
-| 🚶🏻‍♀️‍➡️ | woman walking facing right: light skin tone | U+1F6B6 U+1F3FB U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
-| 🚶🏼‍♀️‍➡️ | woman walking facing right: medium-light skin tone | U+1F6B6 U+1F3FC U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
-| 🚶🏽‍♀️‍➡️ | woman walking facing right: medium skin tone | U+1F6B6 U+1F3FD U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
-| 🚶🏾‍♀️‍➡️ | woman walking facing right: medium-dark skin tone | U+1F6B6 U+1F3FE U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
-| 🚶🏿‍♀️‍➡️ | woman walking facing right: dark skin tone | U+1F6B6 U+1F3FF U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
+| 🚶🏻‍♀️‍➡️ | woman walking facing right | U+1F6B6 U+1F3FB U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
+| 🚶🏼‍♀️‍➡️ | woman walking facing right | U+1F6B6 U+1F3FC U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
+| 🚶🏽‍♀️‍➡️ | woman walking facing right | U+1F6B6 U+1F3FD U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
+| 🚶🏾‍♀️‍➡️ | woman walking facing right | U+1F6B6 U+1F3FE U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
+| 🚶🏿‍♀️‍➡️ | woman walking facing right | U+1F6B6 U+1F3FF U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
 | 🚶‍♂️‍➡️ | man walking facing right | U+1F6B6 U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
-| 🚶🏻‍♂️‍➡️ | man walking facing right: light skin tone | U+1F6B6 U+1F3FB U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
-| 🚶🏼‍♂️‍➡️ | man walking facing right: medium-light skin tone | U+1F6B6 U+1F3FC U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
-| 🚶🏽‍♂️‍➡️ | man walking facing right: medium skin tone | U+1F6B6 U+1F3FD U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
-| 🚶🏾‍♂️‍➡️ | man walking facing right: medium-dark skin tone | U+1F6B6 U+1F3FE U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
-| 🚶🏿‍♂️‍➡️ | man walking facing right: dark skin tone | U+1F6B6 U+1F3FF U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
+| 🚶🏻‍♂️‍➡️ | man walking facing right | U+1F6B6 U+1F3FB U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
+| 🚶🏼‍♂️‍➡️ | man walking facing right | U+1F6B6 U+1F3FC U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
+| 🚶🏽‍♂️‍➡️ | man walking facing right | U+1F6B6 U+1F3FD U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
+| 🚶🏾‍♂️‍➡️ | man walking facing right | U+1F6B6 U+1F3FE U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
+| 🚶🏿‍♂️‍➡️ | man walking facing right | U+1F6B6 U+1F3FF U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
 | 🧍‍♂️ | man standing | U+1F9CD U+200D U+2642 U+FE0F |
 | 🧍🏻‍♂️ | man standing: light skin tone | U+1F9CD U+1F3FB U+200D U+2642 U+FE0F |
 | 🧍🏼‍♂️ | man standing: medium-light skin tone | U+1F9CD U+1F3FC U+200D U+2642 U+FE0F |
@@ -488,77 +488,77 @@
 | 🧎🏾‍♀️ | woman kneeling: medium-dark skin tone | U+1F9CE U+1F3FE U+200D U+2640 U+FE0F |
 | 🧎🏿‍♀️ | woman kneeling: dark skin tone | U+1F9CE U+1F3FF U+200D U+2640 U+FE0F |
 | 🧎‍➡️ | person kneeling facing right | U+1F9CE U+200D U+27A1 U+FE0F |
-| 🧎🏻‍➡️ | person kneeling facing right: light skin tone | U+1F9CE U+1F3FB U+200D U+27A1 U+FE0F |
-| 🧎🏼‍➡️ | person kneeling facing right: medium-light skin tone | U+1F9CE U+1F3FC U+200D U+27A1 U+FE0F |
-| 🧎🏽‍➡️ | person kneeling facing right: medium skin tone | U+1F9CE U+1F3FD U+200D U+27A1 U+FE0F |
-| 🧎🏾‍➡️ | person kneeling facing right: medium-dark skin tone | U+1F9CE U+1F3FE U+200D U+27A1 U+FE0F |
-| 🧎🏿‍➡️ | person kneeling facing right: dark skin tone | U+1F9CE U+1F3FF U+200D U+27A1 U+FE0F |
+| 🧎🏻‍➡️ | person kneeling facing right | U+1F9CE U+1F3FB U+200D U+27A1 U+FE0F |
+| 🧎🏼‍➡️ | person kneeling facing right | U+1F9CE U+1F3FC U+200D U+27A1 U+FE0F |
+| 🧎🏽‍➡️ | person kneeling facing right | U+1F9CE U+1F3FD U+200D U+27A1 U+FE0F |
+| 🧎🏾‍➡️ | person kneeling facing right | U+1F9CE U+1F3FE U+200D U+27A1 U+FE0F |
+| 🧎🏿‍➡️ | person kneeling facing right | U+1F9CE U+1F3FF U+200D U+27A1 U+FE0F |
 | 🧎‍♀️‍➡️ | woman kneeling facing right | U+1F9CE U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
-| 🧎🏻‍♀️‍➡️ | woman kneeling facing right: light skin tone | U+1F9CE U+1F3FB U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
-| 🧎🏼‍♀️‍➡️ | woman kneeling facing right: medium-light skin tone | U+1F9CE U+1F3FC U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
-| 🧎🏽‍♀️‍➡️ | woman kneeling facing right: medium skin tone | U+1F9CE U+1F3FD U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
-| 🧎🏾‍♀️‍➡️ | woman kneeling facing right: medium-dark skin tone | U+1F9CE U+1F3FE U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
-| 🧎🏿‍♀️‍➡️ | woman kneeling facing right: dark skin tone | U+1F9CE U+1F3FF U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
+| 🧎🏻‍♀️‍➡️ | woman kneeling facing right | U+1F9CE U+1F3FB U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
+| 🧎🏼‍♀️‍➡️ | woman kneeling facing right | U+1F9CE U+1F3FC U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
+| 🧎🏽‍♀️‍➡️ | woman kneeling facing right | U+1F9CE U+1F3FD U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
+| 🧎🏾‍♀️‍➡️ | woman kneeling facing right | U+1F9CE U+1F3FE U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
+| 🧎🏿‍♀️‍➡️ | woman kneeling facing right | U+1F9CE U+1F3FF U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
 | 🧎‍♂️‍➡️ | man kneeling facing right | U+1F9CE U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
-| 🧎🏻‍♂️‍➡️ | man kneeling facing right: light skin tone | U+1F9CE U+1F3FB U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
-| 🧎🏼‍♂️‍➡️ | man kneeling facing right: medium-light skin tone | U+1F9CE U+1F3FC U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
-| 🧎🏽‍♂️‍➡️ | man kneeling facing right: medium skin tone | U+1F9CE U+1F3FD U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
-| 🧎🏾‍♂️‍➡️ | man kneeling facing right: medium-dark skin tone | U+1F9CE U+1F3FE U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
-| 🧎🏿‍♂️‍➡️ | man kneeling facing right: dark skin tone | U+1F9CE U+1F3FF U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
+| 🧎🏻‍♂️‍➡️ | man kneeling facing right | U+1F9CE U+1F3FB U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
+| 🧎🏼‍♂️‍➡️ | man kneeling facing right | U+1F9CE U+1F3FC U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
+| 🧎🏽‍♂️‍➡️ | man kneeling facing right | U+1F9CE U+1F3FD U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
+| 🧎🏾‍♂️‍➡️ | man kneeling facing right | U+1F9CE U+1F3FE U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
+| 🧎🏿‍♂️‍➡️ | man kneeling facing right | U+1F9CE U+1F3FF U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
 | 🧑‍🦯‍➡️ | person with white cane facing right | U+1F9D1 U+200D U+1F9AF U+200D U+27A1 U+FE0F |
-| 🧑🏻‍🦯‍➡️ | person with white cane facing right: light skin tone | U+1F9D1 U+1F3FB U+200D U+1F9AF U+200D U+27A1 U+FE0F |
-| 🧑🏼‍🦯‍➡️ | person with white cane facing right: medium-light skin tone | U+1F9D1 U+1F3FC U+200D U+1F9AF U+200D U+27A1 U+FE0F |
-| 🧑🏽‍🦯‍➡️ | person with white cane facing right: medium skin tone | U+1F9D1 U+1F3FD U+200D U+1F9AF U+200D U+27A1 U+FE0F |
-| 🧑🏾‍🦯‍➡️ | person with white cane facing right: medium-dark skin tone | U+1F9D1 U+1F3FE U+200D U+1F9AF U+200D U+27A1 U+FE0F |
-| 🧑🏿‍🦯‍➡️ | person with white cane facing right: dark skin tone | U+1F9D1 U+1F3FF U+200D U+1F9AF U+200D U+27A1 U+FE0F |
+| 🧑🏻‍🦯‍➡️ | person with white cane facing right | U+1F9D1 U+1F3FB U+200D U+1F9AF U+200D U+27A1 U+FE0F |
+| 🧑🏼‍🦯‍➡️ | person with white cane facing right | U+1F9D1 U+1F3FC U+200D U+1F9AF U+200D U+27A1 U+FE0F |
+| 🧑🏽‍🦯‍➡️ | person with white cane facing right | U+1F9D1 U+1F3FD U+200D U+1F9AF U+200D U+27A1 U+FE0F |
+| 🧑🏾‍🦯‍➡️ | person with white cane facing right | U+1F9D1 U+1F3FE U+200D U+1F9AF U+200D U+27A1 U+FE0F |
+| 🧑🏿‍🦯‍➡️ | person with white cane facing right | U+1F9D1 U+1F3FF U+200D U+1F9AF U+200D U+27A1 U+FE0F |
 | 👨‍🦯‍➡️ | man with white cane facing right | U+1F468 U+200D U+1F9AF U+200D U+27A1 U+FE0F |
-| 👨🏻‍🦯‍➡️ | man with white cane facing right: light skin tone | U+1F468 U+1F3FB U+200D U+1F9AF U+200D U+27A1 U+FE0F |
-| 👨🏼‍🦯‍➡️ | man with white cane facing right: medium-light skin tone | U+1F468 U+1F3FC U+200D U+1F9AF U+200D U+27A1 U+FE0F |
-| 👨🏽‍🦯‍➡️ | man with white cane facing right: medium skin tone | U+1F468 U+1F3FD U+200D U+1F9AF U+200D U+27A1 U+FE0F |
-| 👨🏾‍🦯‍➡️ | man with white cane facing right: medium-dark skin tone | U+1F468 U+1F3FE U+200D U+1F9AF U+200D U+27A1 U+FE0F |
-| 👨🏿‍🦯‍➡️ | man with white cane facing right: dark skin tone | U+1F468 U+1F3FF U+200D U+1F9AF U+200D U+27A1 U+FE0F |
+| 👨🏻‍🦯‍➡️ | man with white cane facing right | U+1F468 U+1F3FB U+200D U+1F9AF U+200D U+27A1 U+FE0F |
+| 👨🏼‍🦯‍➡️ | man with white cane facing right | U+1F468 U+1F3FC U+200D U+1F9AF U+200D U+27A1 U+FE0F |
+| 👨🏽‍🦯‍➡️ | man with white cane facing right | U+1F468 U+1F3FD U+200D U+1F9AF U+200D U+27A1 U+FE0F |
+| 👨🏾‍🦯‍➡️ | man with white cane facing right | U+1F468 U+1F3FE U+200D U+1F9AF U+200D U+27A1 U+FE0F |
+| 👨🏿‍🦯‍➡️ | man with white cane facing right | U+1F468 U+1F3FF U+200D U+1F9AF U+200D U+27A1 U+FE0F |
 | 👩‍🦯‍➡️ | woman with white cane facing right | U+1F469 U+200D U+1F9AF U+200D U+27A1 U+FE0F |
-| 👩🏻‍🦯‍➡️ | woman with white cane facing right: light skin tone | U+1F469 U+1F3FB U+200D U+1F9AF U+200D U+27A1 U+FE0F |
-| 👩🏼‍🦯‍➡️ | woman with white cane facing right: medium-light skin tone | U+1F469 U+1F3FC U+200D U+1F9AF U+200D U+27A1 U+FE0F |
-| 👩🏽‍🦯‍➡️ | woman with white cane facing right: medium skin tone | U+1F469 U+1F3FD U+200D U+1F9AF U+200D U+27A1 U+FE0F |
-| 👩🏾‍🦯‍➡️ | woman with white cane facing right: medium-dark skin tone | U+1F469 U+1F3FE U+200D U+1F9AF U+200D U+27A1 U+FE0F |
-| 👩🏿‍🦯‍➡️ | woman with white cane facing right: dark skin tone | U+1F469 U+1F3FF U+200D U+1F9AF U+200D U+27A1 U+FE0F |
+| 👩🏻‍🦯‍➡️ | woman with white cane facing right | U+1F469 U+1F3FB U+200D U+1F9AF U+200D U+27A1 U+FE0F |
+| 👩🏼‍🦯‍➡️ | woman with white cane facing right | U+1F469 U+1F3FC U+200D U+1F9AF U+200D U+27A1 U+FE0F |
+| 👩🏽‍🦯‍➡️ | woman with white cane facing right | U+1F469 U+1F3FD U+200D U+1F9AF U+200D U+27A1 U+FE0F |
+| 👩🏾‍🦯‍➡️ | woman with white cane facing right | U+1F469 U+1F3FE U+200D U+1F9AF U+200D U+27A1 U+FE0F |
+| 👩🏿‍🦯‍➡️ | woman with white cane facing right | U+1F469 U+1F3FF U+200D U+1F9AF U+200D U+27A1 U+FE0F |
 | 🧑‍🦼‍➡️ | person in motorized wheelchair facing right | U+1F9D1 U+200D U+1F9BC U+200D U+27A1 U+FE0F |
-| 🧑🏻‍🦼‍➡️ | person in motorized wheelchair facing right: light skin tone | U+1F9D1 U+1F3FB U+200D U+1F9BC U+200D U+27A1 U+FE0F |
-| 🧑🏼‍🦼‍➡️ | person in motorized wheelchair facing right: medium-light skin tone | U+1F9D1 U+1F3FC U+200D U+1F9BC U+200D U+27A1 U+FE0F |
-| 🧑🏽‍🦼‍➡️ | person in motorized wheelchair facing right: medium skin tone | U+1F9D1 U+1F3FD U+200D U+1F9BC U+200D U+27A1 U+FE0F |
-| 🧑🏾‍🦼‍➡️ | person in motorized wheelchair facing right: medium-dark skin tone | U+1F9D1 U+1F3FE U+200D U+1F9BC U+200D U+27A1 U+FE0F |
-| 🧑🏿‍🦼‍➡️ | person in motorized wheelchair facing right: dark skin tone | U+1F9D1 U+1F3FF U+200D U+1F9BC U+200D U+27A1 U+FE0F |
+| 🧑🏻‍🦼‍➡️ | person in motorized wheelchair facing right | U+1F9D1 U+1F3FB U+200D U+1F9BC U+200D U+27A1 U+FE0F |
+| 🧑🏼‍🦼‍➡️ | person in motorized wheelchair facing right | U+1F9D1 U+1F3FC U+200D U+1F9BC U+200D U+27A1 U+FE0F |
+| 🧑🏽‍🦼‍➡️ | person in motorized wheelchair facing right | U+1F9D1 U+1F3FD U+200D U+1F9BC U+200D U+27A1 U+FE0F |
+| 🧑🏾‍🦼‍➡️ | person in motorized wheelchair facing right | U+1F9D1 U+1F3FE U+200D U+1F9BC U+200D U+27A1 U+FE0F |
+| 🧑🏿‍🦼‍➡️ | person in motorized wheelchair facing right | U+1F9D1 U+1F3FF U+200D U+1F9BC U+200D U+27A1 U+FE0F |
 | 👨‍🦼‍➡️ | man in motorized wheelchair facing right | U+1F468 U+200D U+1F9BC U+200D U+27A1 U+FE0F |
-| 👨🏻‍🦼‍➡️ | man in motorized wheelchair facing right: light skin tone | U+1F468 U+1F3FB U+200D U+1F9BC U+200D U+27A1 U+FE0F |
-| 👨🏼‍🦼‍➡️ | man in motorized wheelchair facing right: medium-light skin tone | U+1F468 U+1F3FC U+200D U+1F9BC U+200D U+27A1 U+FE0F |
-| 👨🏽‍🦼‍➡️ | man in motorized wheelchair facing right: medium skin tone | U+1F468 U+1F3FD U+200D U+1F9BC U+200D U+27A1 U+FE0F |
-| 👨🏾‍🦼‍➡️ | man in motorized wheelchair facing right: medium-dark skin tone | U+1F468 U+1F3FE U+200D U+1F9BC U+200D U+27A1 U+FE0F |
-| 👨🏿‍🦼‍➡️ | man in motorized wheelchair facing right: dark skin tone | U+1F468 U+1F3FF U+200D U+1F9BC U+200D U+27A1 U+FE0F |
+| 👨🏻‍🦼‍➡️ | man in motorized wheelchair facing right | U+1F468 U+1F3FB U+200D U+1F9BC U+200D U+27A1 U+FE0F |
+| 👨🏼‍🦼‍➡️ | man in motorized wheelchair facing right | U+1F468 U+1F3FC U+200D U+1F9BC U+200D U+27A1 U+FE0F |
+| 👨🏽‍🦼‍➡️ | man in motorized wheelchair facing right | U+1F468 U+1F3FD U+200D U+1F9BC U+200D U+27A1 U+FE0F |
+| 👨🏾‍🦼‍➡️ | man in motorized wheelchair facing right | U+1F468 U+1F3FE U+200D U+1F9BC U+200D U+27A1 U+FE0F |
+| 👨🏿‍🦼‍➡️ | man in motorized wheelchair facing right | U+1F468 U+1F3FF U+200D U+1F9BC U+200D U+27A1 U+FE0F |
 | 👩‍🦼‍➡️ | woman in motorized wheelchair facing right | U+1F469 U+200D U+1F9BC U+200D U+27A1 U+FE0F |
-| 👩🏻‍🦼‍➡️ | woman in motorized wheelchair facing right: light skin tone | U+1F469 U+1F3FB U+200D U+1F9BC U+200D U+27A1 U+FE0F |
-| 👩🏼‍🦼‍➡️ | woman in motorized wheelchair facing right: medium-light skin tone | U+1F469 U+1F3FC U+200D U+1F9BC U+200D U+27A1 U+FE0F |
-| 👩🏽‍🦼‍➡️ | woman in motorized wheelchair facing right: medium skin tone | U+1F469 U+1F3FD U+200D U+1F9BC U+200D U+27A1 U+FE0F |
-| 👩🏾‍🦼‍➡️ | woman in motorized wheelchair facing right: medium-dark skin tone | U+1F469 U+1F3FE U+200D U+1F9BC U+200D U+27A1 U+FE0F |
-| 👩🏿‍🦼‍➡️ | woman in motorized wheelchair facing right: dark skin tone | U+1F469 U+1F3FF U+200D U+1F9BC U+200D U+27A1 U+FE0F |
+| 👩🏻‍🦼‍➡️ | woman in motorized wheelchair facing right | U+1F469 U+1F3FB U+200D U+1F9BC U+200D U+27A1 U+FE0F |
+| 👩🏼‍🦼‍➡️ | woman in motorized wheelchair facing right | U+1F469 U+1F3FC U+200D U+1F9BC U+200D U+27A1 U+FE0F |
+| 👩🏽‍🦼‍➡️ | woman in motorized wheelchair facing right | U+1F469 U+1F3FD U+200D U+1F9BC U+200D U+27A1 U+FE0F |
+| 👩🏾‍🦼‍➡️ | woman in motorized wheelchair facing right | U+1F469 U+1F3FE U+200D U+1F9BC U+200D U+27A1 U+FE0F |
+| 👩🏿‍🦼‍➡️ | woman in motorized wheelchair facing right | U+1F469 U+1F3FF U+200D U+1F9BC U+200D U+27A1 U+FE0F |
 | 🧑‍🦽‍➡️ | person in manual wheelchair facing right | U+1F9D1 U+200D U+1F9BD U+200D U+27A1 U+FE0F |
-| 🧑🏻‍🦽‍➡️ | person in manual wheelchair facing right: light skin tone | U+1F9D1 U+1F3FB U+200D U+1F9BD U+200D U+27A1 U+FE0F |
-| 🧑🏼‍🦽‍➡️ | person in manual wheelchair facing right: medium-light skin tone | U+1F9D1 U+1F3FC U+200D U+1F9BD U+200D U+27A1 U+FE0F |
-| 🧑🏽‍🦽‍➡️ | person in manual wheelchair facing right: medium skin tone | U+1F9D1 U+1F3FD U+200D U+1F9BD U+200D U+27A1 U+FE0F |
-| 🧑🏾‍🦽‍➡️ | person in manual wheelchair facing right: medium-dark skin tone | U+1F9D1 U+1F3FE U+200D U+1F9BD U+200D U+27A1 U+FE0F |
-| 🧑🏿‍🦽‍➡️ | person in manual wheelchair facing right: dark skin tone | U+1F9D1 U+1F3FF U+200D U+1F9BD U+200D U+27A1 U+FE0F |
+| 🧑🏻‍🦽‍➡️ | person in manual wheelchair facing right | U+1F9D1 U+1F3FB U+200D U+1F9BD U+200D U+27A1 U+FE0F |
+| 🧑🏼‍🦽‍➡️ | person in manual wheelchair facing right | U+1F9D1 U+1F3FC U+200D U+1F9BD U+200D U+27A1 U+FE0F |
+| 🧑🏽‍🦽‍➡️ | person in manual wheelchair facing right | U+1F9D1 U+1F3FD U+200D U+1F9BD U+200D U+27A1 U+FE0F |
+| 🧑🏾‍🦽‍➡️ | person in manual wheelchair facing right | U+1F9D1 U+1F3FE U+200D U+1F9BD U+200D U+27A1 U+FE0F |
+| 🧑🏿‍🦽‍➡️ | person in manual wheelchair facing right | U+1F9D1 U+1F3FF U+200D U+1F9BD U+200D U+27A1 U+FE0F |
 | 👨‍🦽‍➡️ | man in manual wheelchair facing right | U+1F468 U+200D U+1F9BD U+200D U+27A1 U+FE0F |
-| 👨🏻‍🦽‍➡️ | man in manual wheelchair facing right: light skin tone | U+1F468 U+1F3FB U+200D U+1F9BD U+200D U+27A1 U+FE0F |
-| 👨🏼‍🦽‍➡️ | man in manual wheelchair facing right: medium-light skin tone | U+1F468 U+1F3FC U+200D U+1F9BD U+200D U+27A1 U+FE0F |
-| 👨🏽‍🦽‍➡️ | man in manual wheelchair facing right: medium skin tone | U+1F468 U+1F3FD U+200D U+1F9BD U+200D U+27A1 U+FE0F |
-| 👨🏾‍🦽‍➡️ | man in manual wheelchair facing right: medium-dark skin tone | U+1F468 U+1F3FE U+200D U+1F9BD U+200D U+27A1 U+FE0F |
-| 👨🏿‍🦽‍➡️ | man in manual wheelchair facing right: dark skin tone | U+1F468 U+1F3FF U+200D U+1F9BD U+200D U+27A1 U+FE0F |
+| 👨🏻‍🦽‍➡️ | man in manual wheelchair facing right | U+1F468 U+1F3FB U+200D U+1F9BD U+200D U+27A1 U+FE0F |
+| 👨🏼‍🦽‍➡️ | man in manual wheelchair facing right | U+1F468 U+1F3FC U+200D U+1F9BD U+200D U+27A1 U+FE0F |
+| 👨🏽‍🦽‍➡️ | man in manual wheelchair facing right | U+1F468 U+1F3FD U+200D U+1F9BD U+200D U+27A1 U+FE0F |
+| 👨🏾‍🦽‍➡️ | man in manual wheelchair facing right | U+1F468 U+1F3FE U+200D U+1F9BD U+200D U+27A1 U+FE0F |
+| 👨🏿‍🦽‍➡️ | man in manual wheelchair facing right | U+1F468 U+1F3FF U+200D U+1F9BD U+200D U+27A1 U+FE0F |
 | 👩‍🦽‍➡️ | woman in manual wheelchair facing right | U+1F469 U+200D U+1F9BD U+200D U+27A1 U+FE0F |
-| 👩🏻‍🦽‍➡️ | woman in manual wheelchair facing right: light skin tone | U+1F469 U+1F3FB U+200D U+1F9BD U+200D U+27A1 U+FE0F |
-| 👩🏼‍🦽‍➡️ | woman in manual wheelchair facing right: medium-light skin tone | U+1F469 U+1F3FC U+200D U+1F9BD U+200D U+27A1 U+FE0F |
-| 👩🏽‍🦽‍➡️ | woman in manual wheelchair facing right: medium skin tone | U+1F469 U+1F3FD U+200D U+1F9BD U+200D U+27A1 U+FE0F |
-| 👩🏾‍🦽‍➡️ | woman in manual wheelchair facing right: medium-dark skin tone | U+1F469 U+1F3FE U+200D U+1F9BD U+200D U+27A1 U+FE0F |
-| 👩🏿‍🦽‍➡️ | woman in manual wheelchair facing right: dark skin tone | U+1F469 U+1F3FF U+200D U+1F9BD U+200D U+27A1 U+FE0F |
+| 👩🏻‍🦽‍➡️ | woman in manual wheelchair facing right | U+1F469 U+1F3FB U+200D U+1F9BD U+200D U+27A1 U+FE0F |
+| 👩🏼‍🦽‍➡️ | woman in manual wheelchair facing right | U+1F469 U+1F3FC U+200D U+1F9BD U+200D U+27A1 U+FE0F |
+| 👩🏽‍🦽‍➡️ | woman in manual wheelchair facing right | U+1F469 U+1F3FD U+200D U+1F9BD U+200D U+27A1 U+FE0F |
+| 👩🏾‍🦽‍➡️ | woman in manual wheelchair facing right | U+1F469 U+1F3FE U+200D U+1F9BD U+200D U+27A1 U+FE0F |
+| 👩🏿‍🦽‍➡️ | woman in manual wheelchair facing right | U+1F469 U+1F3FF U+200D U+1F9BD U+200D U+27A1 U+FE0F |
 | 🏃‍♂️ | man running | U+1F3C3 U+200D U+2642 U+FE0F |
 | 🏃🏻‍♂️ | man running: light skin tone | U+1F3C3 U+1F3FB U+200D U+2642 U+FE0F |
 | 🏃🏼‍♂️ | man running: medium-light skin tone | U+1F3C3 U+1F3FC U+200D U+2642 U+FE0F |
@@ -572,23 +572,23 @@
 | 🏃🏾‍♀️ | woman running: medium-dark skin tone | U+1F3C3 U+1F3FE U+200D U+2640 U+FE0F |
 | 🏃🏿‍♀️ | woman running: dark skin tone | U+1F3C3 U+1F3FF U+200D U+2640 U+FE0F |
 | 🏃‍➡️ | person running facing right | U+1F3C3 U+200D U+27A1 U+FE0F |
-| 🏃🏻‍➡️ | person running facing right: light skin tone | U+1F3C3 U+1F3FB U+200D U+27A1 U+FE0F |
-| 🏃🏼‍➡️ | person running facing right: medium-light skin tone | U+1F3C3 U+1F3FC U+200D U+27A1 U+FE0F |
-| 🏃🏽‍➡️ | person running facing right: medium skin tone | U+1F3C3 U+1F3FD U+200D U+27A1 U+FE0F |
-| 🏃🏾‍➡️ | person running facing right: medium-dark skin tone | U+1F3C3 U+1F3FE U+200D U+27A1 U+FE0F |
-| 🏃🏿‍➡️ | person running facing right: dark skin tone | U+1F3C3 U+1F3FF U+200D U+27A1 U+FE0F |
+| 🏃🏻‍➡️ | person running facing right | U+1F3C3 U+1F3FB U+200D U+27A1 U+FE0F |
+| 🏃🏼‍➡️ | person running facing right | U+1F3C3 U+1F3FC U+200D U+27A1 U+FE0F |
+| 🏃🏽‍➡️ | person running facing right | U+1F3C3 U+1F3FD U+200D U+27A1 U+FE0F |
+| 🏃🏾‍➡️ | person running facing right | U+1F3C3 U+1F3FE U+200D U+27A1 U+FE0F |
+| 🏃🏿‍➡️ | person running facing right | U+1F3C3 U+1F3FF U+200D U+27A1 U+FE0F |
 | 🏃‍♀️‍➡️ | woman running facing right | U+1F3C3 U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
-| 🏃🏻‍♀️‍➡️ | woman running facing right: light skin tone | U+1F3C3 U+1F3FB U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
-| 🏃🏼‍♀️‍➡️ | woman running facing right: medium-light skin tone | U+1F3C3 U+1F3FC U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
-| 🏃🏽‍♀️‍➡️ | woman running facing right: medium skin tone | U+1F3C3 U+1F3FD U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
-| 🏃🏾‍♀️‍➡️ | woman running facing right: medium-dark skin tone | U+1F3C3 U+1F3FE U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
-| 🏃🏿‍♀️‍➡️ | woman running facing right: dark skin tone | U+1F3C3 U+1F3FF U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
+| 🏃🏻‍♀️‍➡️ | woman running facing right | U+1F3C3 U+1F3FB U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
+| 🏃🏼‍♀️‍➡️ | woman running facing right | U+1F3C3 U+1F3FC U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
+| 🏃🏽‍♀️‍➡️ | woman running facing right | U+1F3C3 U+1F3FD U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
+| 🏃🏾‍♀️‍➡️ | woman running facing right | U+1F3C3 U+1F3FE U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
+| 🏃🏿‍♀️‍➡️ | woman running facing right | U+1F3C3 U+1F3FF U+200D U+2640 U+FE0F U+200D U+27A1 U+FE0F |
 | 🏃‍♂️‍➡️ | man running facing right | U+1F3C3 U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
-| 🏃🏻‍♂️‍➡️ | man running facing right: light skin tone | U+1F3C3 U+1F3FB U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
-| 🏃🏼‍♂️‍➡️ | man running facing right: medium-light skin tone | U+1F3C3 U+1F3FC U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
-| 🏃🏽‍♂️‍➡️ | man running facing right: medium skin tone | U+1F3C3 U+1F3FD U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
-| 🏃🏾‍♂️‍➡️ | man running facing right: medium-dark skin tone | U+1F3C3 U+1F3FE U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
-| 🏃🏿‍♂️‍➡️ | man running facing right: dark skin tone | U+1F3C3 U+1F3FF U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
+| 🏃🏻‍♂️‍➡️ | man running facing right | U+1F3C3 U+1F3FB U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
+| 🏃🏼‍♂️‍➡️ | man running facing right | U+1F3C3 U+1F3FC U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
+| 🏃🏽‍♂️‍➡️ | man running facing right | U+1F3C3 U+1F3FD U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
+| 🏃🏾‍♂️‍➡️ | man running facing right | U+1F3C3 U+1F3FE U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
+| 🏃🏿‍♂️‍➡️ | man running facing right | U+1F3C3 U+1F3FF U+200D U+2642 U+FE0F U+200D U+27A1 U+FE0F |
 | 👯‍♂️ | men with bunny ears | U+1F46F U+200D U+2642 U+FE0F |
 | 👯‍♀️ | women with bunny ears | U+1F46F U+200D U+2640 U+FE0F |
 | 🧖‍♂️ | man in steamy room | U+1F9D6 U+200D U+2642 U+FE0F |
@@ -1147,5 +1147,5 @@
 | 🏳️‍⚧️ | transgender flag | U+1F3F3 U+FE0F U+200D U+26A7 U+FE0F |
 | 🏴‍☠️ | pirate flag | U+1F3F4 U+200D U+2620 U+FE0F |
 
-Generated by: Apple Swift version 5.10-dev (LLVM 7c3b53ecaad54fb, Swift d7111290a279135)
-Target: arm64-apple-macosx14.0
+Generated by: Apple Swift version 6.0 (swiftlang-6.0.0.3.300 clang-1600.0.20.10)
+Target: arm64-apple-darwin24.0.0

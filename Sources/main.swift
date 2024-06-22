@@ -101,9 +101,11 @@ func testSwiftCode(swiftCode: String) throws -> Bool {
     let data = pipe.fileHandleForReading.readDataToEndOfFile()
     let output = String(data: data, encoding: .utf8)
 
+    let cleanedOutput = (output ?? "").replacingOccurrences(of: "<unknown>:0: warning: using (deprecated) legacy driver, Swift installation does not contain swift-driver at: '/Library/Developer/CommandLineTools/usr/bin/swift-driver-new'\n", with: "")
+      
     try FileManager.default.removeItem(at: tempFileURL)
-
-    return output?.isEmpty ?? false
+    
+    return cleanedOutput.isEmpty 
   } catch {
     print("An error occurred: \(error.localizedDescription)")
     throw error
@@ -138,6 +140,7 @@ func getSwiftVersion() -> String? {
 }
 
 func main(jsonDataPath: String, supportedFilePath: String, unsupportedFilePath: String, resultsFilePath: String, resultsUnsupportedFilePath: String) throws {
+
   do {
     let fileManager = FileManager.default
     let currentDirectoryURL = URL(fileURLWithPath: fileManager.currentDirectoryPath)
@@ -165,21 +168,25 @@ func main(jsonDataPath: String, supportedFilePath: String, unsupportedFilePath: 
     resultsFileLines += "| ----- | ---- | ---------- |\n"
     
     var resultsUnsupportedFileLines = resultsFileLines
-
+    let len = swiftCodes.count
+    var count = 1;
     for item in swiftCodes {
       let codepoints = getUnicodeScalars(string: item.emoji).joined(separator: " ")
-      let swiftLine = "let \(item.emoji) = 1 /* Name: \(item.label), Codepoints: \(codepoints) */\n"
-
+      let swiftLine = "func \(item.emoji)() { return }\t/* Name: \(item.label), Codepoints: \(codepoints) */\n"
+      print("\r\u{001B}[1;33mTesting: \u{001B}[0;0m \(count) of \(len)", terminator: "\r")
       if try testSwiftCode(swiftCode: swiftLine) {
 
+       
         supportedSwiftCode += swiftLine
         resultsFileLines +=
           "| \(item.emoji) | \(item.label) | \(codepoints) |\n"
       } else {
+        
         unsupportedSwiftCode += swiftLine
         resultsUnsupportedFileLines +=
           "| \(item.emoji) | \(item.label) | \(codepoints) |\n"
       }
+      count += 1
     }
 
 if let swiftVersion = getSwiftVersion() {
