@@ -1,3 +1,6 @@
+# Notice
+Github is now a mirror and the main repo is located over at [https://git.plux.wtf/ailnoth/swift_supported_emoji](https://git.plux.wtf/ailnoth/swift_supported_emoji)
+
 # Swift Emoji Compiler Compatibility Checker
 
 This project includes a Swift script designed to test the Swift compiler's ability to handle emojis as variable names. It automatically generates Swift code snippets for each emoji from the Emojibase dataset, attempts to compile them, and then categorizes them into "supported" and "unsupported" based on the compilation results. This tool can be particularly useful for developers interested in exploring the limits of Swift's syntax and for those looking to incorporate emojis directly in their code in a novel way.
